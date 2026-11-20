@@ -1,0 +1,24 @@
+# Credentials and private keys
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Local development files
+.vscode/
+.DS_Store
+Thumbs.db
